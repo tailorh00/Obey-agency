@@ -184,3 +184,128 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
+
+/* page 2  */
+#page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #151515;
+  position: relative;
+  padding: 5vw 0 0;
+}
+#page2 .video-container {
+  width: 73%;
+  height: 80%;
+  margin-left: 27%;
+  /* background-color: rebeccapurple; */
+  position: relative;
+  /* overflow: hidden; */
+}
+.video-container video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.video-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+}
+#video-crsr {
+  width: 11vw;
+  height: 11vw;
+  position: absolute;
+  left: 65%;
+  top: -10%;
+  border-radius: 50%;
+  background-color: #ffa63d;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vw;
+}
+
+/* page 3  */
+#page3 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1aaaa;
+}
+
+/* page 4 */
+#page4 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #151515;
+  padding-top: 5vw;
+}
+#page4-content {
+  width: 73%;
+  margin-left: 27%;
+  position: relative;
+  padding-right: 5vw;
+}
+#page4-content h1 {
+  font-size: 7.5vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#page4-content .underline {
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  margin: 1.5vw 0 3vw;
+}
+#page4-content > p {
+  font-size: 2.4vw;
+  margin-bottom: 4.5vw;
+}
+#page4 .page4-flex {
+  display: flex;
+}
+.page4-flex .flex-left {
+  /* width: 100%; */
+  height: 90vh;
+}
+.page4-flex .flex-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page4-flex .flex-right {
+  width: 30%;
+  margin-left: 2vw;
+}
+.page4-flex .flex-right p {
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+}
+
+#page4 #blue-div {
+  background-color: #3f7df4;
+  padding: 4vw 3.5vw;
+  position: relative;
+  margin-top: -20vh;
+  margin-left: 23vw;
+  margin-bottom: 10vw;
+}
+#blue-div .blue-elm {
+  border-bottom: 1px solid #ffffffaf;
+  padding: 2vw 0;
+  display: flex;
+  gap: 5vw;
+}
+#blue-div .blue-elm h5 {
+  font-size: 1.7vw;
+  font-weight: 500;
+}
+#page4-content .underline {
+  margin: 2vw 0;
+}
+#page4-content .end {
+  font-size: 1.1vw;
+}
+
