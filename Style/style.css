@@ -39,7 +39,6 @@ body {
   position: absolute;
   z-index: 999;
   padding: 8vw 5vw;
-  /* display: none; */
 }
 #loader .line {
   /* background-color: red; */
@@ -241,6 +240,7 @@ body {
   min-height: 100vh;
   background-color: #151515;
   padding-top: 5vw;
+  padding-bottom: 1vw;
 }
 #page4-content {
   width: 73%;
@@ -309,3 +309,115 @@ body {
   font-size: 1.1vw;
 }
 
+/* page 5  */
+#page5 {
+  width: 100%;
+  height: 100vh;
+  padding: 2vw 0;
+  background-color: #151515;
+  /* background-color: rebeccapurple; */
+}
+#page5 .page5-elm {
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  line-height: 1.1;
+}
+.page5-elm h1 {
+  /* background-color: rebeccapurple; */
+  font-size: 7.5vw;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 16px;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-weight: 100;
+  animation-name: marquee-anime;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.page5-elm span {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-style: italic;
+  font-family: "silk";
+}
+#page5 .elm2 h1 {
+  transform: translateX(-100% - 20px);
+  animation-name: marquee-anime;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes marquee-anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
+
+/* page 6  */
+#page6 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 5vw;
+  background-color: #151515;
+}
+#page6-container {
+  width: 73%;
+  margin-left: 27%;
+  position: relative;
+  padding-right: 5vw;
+}
+#page6-container .underline {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+#page6-container h1 {
+  font-size: 7.5vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2vw;
+  height: fit-content;
+  height: 20vh;
+}
+#page6-container h1 i {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  font-weight: 100;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 0;
+}
+.foot-left {
+  width: 45%;
+}
+.foot-right {
+  width: 40%;
+}
+.footer h6 {
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 2vw;
+  margin-bottom: 2vw;
+}
+.footer h5 {
+  font-size: 1.8vw;
+  font-weight: 500;
+  line-height: 2vw;
+}
+.footer p {
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 2vw;
+}
+#page6-container > p {
+  margin: 4vw 0;
+}
