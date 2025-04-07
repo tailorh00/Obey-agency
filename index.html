@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <!-- locomotive cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <!-- Shery js css cdn  -->
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <!-- remix icon cdn  -->
@@ -44,7 +45,7 @@
     <!-- main div  -->
     <div id="main">
         <!-- page 1  -->
-        <div id="page1">
+        <div id="page1" data-scroll>
             <div id="nav">
                 <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
                     <path
@@ -84,26 +85,28 @@
                     <h5>Contacts</h5>
                 </div>
             </div>
-            <div class="hero">
-                <h1>we design</h1>
-            </div>
-            <div class="hero">
-                <h1>unique</h1>
-            </div>
-            <div class="hero">
-                <h1>
-                    <h2>web</h2>
-                    <h3>/</h3>
-                    <h2>graphic</h2>
-                </h1>
-            </div>
-            <div class="hero">
-                <h1>experience</h1>
+            <div class="hero-container">
+                <div class="hero">
+                    <h1>we design</h1>
+                </div>
+                <div class="hero">
+                    <h1>unique</h1>
+                </div>
+                <div class="hero">
+                    <h1>
+                        <h2>web</h2>
+                        <h3>/</h3>
+                        <h2>graphic</h2>
+                    </h1>
+                </div>
+                <div class="hero">
+                    <h1>experience</h1>
+                </div>
             </div>
         </div>
 
         <!-- page 2  -->
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-0.8">
             <div class="video-container">
                 <div id="video-crsr"><i class="ri-play-large-fill"></i></div>
                 <img src="https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg" alt="">
@@ -113,10 +116,10 @@
         </div>
 
         <!-- page 3  -->
-        <div id="page3"></div>
+        <div id="page3" data-scroll></div>
 
         <!-- page 4  -->
-        <div id="page4">
+        <div id="page4" data-scroll>
             <div id="page4-content">
                 <h1>about Obys</h1>
                 <div class="underline"></div>
@@ -205,7 +208,7 @@
         </div>
 
         <!-- page 5  -->
-        <div id="page5">
+        <div id="page5" data-scroll>
             <div class="page5-elm">
                 <h1><span>fashion</span> - sport - technology - </h1>
                 <h1>fashion - <span>sport</span> - technology - </h1>
@@ -225,7 +228,7 @@
         </div>
 
         <!-- page 6 -->
-        <div id="page6">
+        <div id="page6" data-scroll>
             <div id="page6-container">
                 <h1>let's create <i class="ri-arrow-right-line"></i> </h1>
                 <div class="underline"></div>
@@ -256,6 +259,8 @@
 
     </div>
 
+    <!-- locomotive cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <!-- GSAP cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
         integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
